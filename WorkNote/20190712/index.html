@@ -6,25 +6,27 @@
 <a>https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify</a>
 <h3>qs.stringfy</h3>
 <p>qs.stringify() 和JSON.stringify()有什么区别，什么情况下用哪一个</p>
-<div class="answer fmt" data-id="1020000010807824">
-                                    
-    <p>完全不是一个东西，功能虽然都是序列化。假设我要提交的数据如下<br>var a = {name:'hehe',age:10};<br>qs.stringify序列化结果如下</p>
-    <div class="widget-codetool" style="display: none;">
-          <div class="widget-codetool--inner">
-          <span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="全选"></span>
-          <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="name=hehe&amp;age=10" title="" data-original-title="复制"></span>
-          </div>
-          </div><pre class="hljs ini"><code style="word-break: break-word; white-space: initial;"><span class="hljs-attr">name</span>=hehe&amp;age=<span class="hljs-number">10</span></code></pre>
+<div>
+    <span>转载：</span>
+    <a>https://segmentfault.com/q/1010000010806660</a>
+</div>
+<div>                     
+    <p>完全不是一个东西，功能虽然都是序列化。假设我要提交的数据如下
+        <br>var a = {name:'hehe',age:10};<br>
+        qs.stringify序列化结果如下
+    </p>
+    <pre>
+        <code>
+            <span>name=hehe&amp;age=10</span>
+        </code>
+    </pre>
     <p>而JSON.stringify序列化结果如下：</p>
-    <div class="widget-codetool" style="display: none;">
-          <div class="widget-codetool--inner">
-          <span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="全选"></span>
-          <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&quot;{&quot;a&quot;:&quot;hehe&quot;,&quot;age&quot;:10}&quot;" title="" data-original-title="复制"></span>
-          </div>
-          </div><pre class="hljs objectivec"><code style="word-break: break-word; white-space: initial;"><span class="hljs-string">"{"</span>a<span class="hljs-string">":"</span>hehe<span class="hljs-string">","</span>age<span class="hljs-string">":10}"</span></code></pre>
+    <pre>
+        <code>
+            "{"a":"hehe","age":10}"
+        </code>
+    </pre>
     
-                                </div>
-<a>https://segmentfault.com/q/1010000010806660</a>
-<p></p>
+</div>
 </body>
 </html>
