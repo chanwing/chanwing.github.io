@@ -1,10 +1,14 @@
 <html>
 <body>
-<h2>Passing Data Between React Components</h2>
-<h3>setState与sessionStorage</h3>
-<p>Update localStorage after setState - React</p>
-<a target="_blank" href="https://www.freecodecamp.org/forum/t/update-localstorage-after-setstate-react/167754/2">https://www.freecodecamp.org/forum/t/update-localstorage-after-setstate-react/167754/2</a>
-<p>其实this.setState是有两个参数的，而第二个参数就是我们所需要的异步回调函数，它会在setState执行完毕之后再调用</p>
-<a target="_blank" href="https://www.jianshu.com/p/eab25077abb6">https://www.jianshu.com/p/eab25077abb6</a>
+<h2>componentWillReceiveProps</h2>
+<h3>工作时遇到的问题：点击按钮后，希望子组件利用新prop重新渲染</h3>
+<p>一开始以为在componentDidMount里更新，后来才知道componentWillReceiveProps。对react生命周期又有了进一步的认识。</p>
+<br>
+<p>React：当prop更改时,为什么子组件不会更新</p>
+<a target="_blank" href="https://codeday.me/bug/20180920/256486.html">https://codeday.me/bug/20180920/256486.html</a>
+<p>React子组件从父组件接收到新的props时，没有重新渲染的问题</p>
+<a target="_blank" href="https://www.xiaoweihuang.me/2018/11/17/about-react-child-component-update/">https://www.xiaoweihuang.me/2018/11/17/about-react-child-component-update/</a>
+<p>谈谈React--componentWillReceiveProps的使用</p>
+<a target="_blank" href="https://juejin.im/post/5a39de3d6fb9a045154405ec">https://juejin.im/post/5a39de3d6fb9a045154405ec</a>
 </body>
 </html>
